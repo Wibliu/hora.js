@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(70, 142, 230);
+    font: normal 15pt arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+section {
+    display: flex-box;
+    background-color: white;
+    border-radius: 3rem;
+    padding: 1rem;
+    width: 40%;
+    height: 40vmax;
+    position: relative;
+    left: 28%;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.418) 5px 5px 10px;
+}
+
+#msg {
+    font-family: gabriola;
+    font-size: 2em;
+}
+
+#foto {
+    display: flexbox;
+    width: auto;
+    position: relative;
+    top: 10%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+
+@media (max-width: 700px) {
+    #foto {
+        display: grid;
+        width: auto;
+        position: relative;
+        top: 10%;
+    }
+    section {
+        display: flex-box;
+        background-color: white;
+        border-radius: 3rem;
+        padding: 1rem;
+        width: 40%;
+        height: 70vmax;
+        position: relative;
+        left: 28%;
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.418) 5px 5px 10px;
+    }
+}
